@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BC WEEK 3</title>
-</head>
-<body>
-    <div id="container">
-        <form id="image-form" onsubmit="handle(event)" enctype="multipart/form-data">
-            <input name="image" type="file" onchange="loadFile(event)" accept="image/*">
-            <img id="output">
-            <button type="submit">Submit Picture</button>
-            <div id="emotion"></div>
-        </form>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="config.js" type="text/javascript"></script>
-</body>
-</html>
+<header>BC Week 3</header>
+
+<div id="container">
+    <form onsubmit="handle(event)" enctype="multipart/form-data" id="myform">
+        <input accept="image/*" name="image" type="file" onchange="loadFile(event)"/>
+        <img id="output" width="50%"/>
+        <button type="submit">"Submit Picture"</button>
+    </form>
+    <div id="emotion"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+     
+<script src="wk3.js" type="text/javascript"></script>
