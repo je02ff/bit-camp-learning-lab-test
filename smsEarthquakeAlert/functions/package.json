@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {}
+}

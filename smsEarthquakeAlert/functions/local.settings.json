@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=smsearthquake;AccountKey=hl6WzhCVCrLvaxO84Bu0ugyQOaJpnVdX/95OkC0B39C9rfO3IePw2OlHDM/IXSWtlVCrSonO1fDnjL41J8CUdQ==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "useme_DOCUMENTDB": "AccountEndpoint=https://useme.documents.azure.com:443/;AccountKey=siCqX9NYaL9VxlsrRsfyIJHK1N5efqzIDJnLX3bXXcsoheyYKQB0l23IOV0Zd3dC1eUB7DRWzu2Ap05UOUvOFg==;",
+    "TwilioAccountSid": "ACffc1405e84226160c2c65329aca14fb0",
+    "TwilioAuthToken": "bbc9c1ecc3e4a91d69cbf53188010463"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
